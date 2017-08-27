@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 212642338500825088}
   - component: {fileID: 58790821775136658}
   - component: {fileID: 114208732604685860}
+  - component: {fileID: 114122896218743768}
   m_Layer: 0
   m_Name: Particle0
   m_TagString: Particle
@@ -172,6 +173,17 @@ TrailRenderer:
     generateLightingData: 0
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
+--- !u!114 &114122896218743768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1919812031389754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2451e55cbb9a3d4a8b5cd8d419c379d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114208732604685860
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -226,7 +238,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: eeab9960afa2bb44684ed9c45818f07f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7a3b7e77763e6554bba161fa3c7b3c4f, type: 3}
   m_Color: {r: 1, g: 0.6666667, b: 0.003921569, a: 1}
   m_FlipX: 0
   m_FlipY: 0

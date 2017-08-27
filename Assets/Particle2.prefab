@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 212738306645310800}
   - component: {fileID: 58248485951211984}
   - component: {fileID: 114516231393599860}
+  - component: {fileID: 50814688390546752}
+  - component: {fileID: 114026438696654322}
   m_Layer: 0
   m_Name: Particle2
   m_TagString: Particle
@@ -72,6 +74,26 @@ Transform:
   m_Father: {fileID: 4299281795790472}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50814688390546752
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1245804012614420}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!58 &58248485951211984
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -178,6 +200,28 @@ TrailRenderer:
     generateLightingData: 0
   m_MinVertexDistance: 0.1
   m_Autodestruct: 1
+--- !u!114 &114026438696654322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1245804012614420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2255edfc84dc98e4db0e1a018eff684c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  q: 0
+  Speed: {x: 0, y: 0}
+  Acc: {x: 0, y: 0}
+  particles: []
+  neonColors:
+  - {r: 1, g: 0.667, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0.667, a: 1}
+  - {r: 0.667, g: 1, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.667, a: 1}
+  - {r: 0, g: 0.667, b: 1, a: 1}
+  - {r: 0.667, g: 0, b: 1, a: 1}
 --- !u!114 &114516231393599860
 MonoBehaviour:
   m_ObjectHideFlags: 1

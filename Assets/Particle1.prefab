@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212019034093492010}
   - component: {fileID: 58975633661265484}
   - component: {fileID: 114034200521233502}
+  - component: {fileID: 114715296246438832}
   m_Layer: 0
   m_Name: Particle1
   m_TagString: Particle
@@ -187,6 +188,24 @@ MonoBehaviour:
   Speed: {x: 1, y: 0}
   Acc: {x: 0, y: 0}
   particles: []
+  neonColors:
+  - {r: 1, g: 0.667, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0.667, a: 1}
+  - {r: 0.667, g: 1, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.667, a: 1}
+  - {r: 0, g: 0.667, b: 1, a: 1}
+  - {r: 0.667, g: 0, b: 1, a: 1}
+--- !u!114 &114715296246438832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118742171636174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2451e55cbb9a3d4a8b5cd8d419c379d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212019034093492010
 SpriteRenderer:
   m_ObjectHideFlags: 1
