@@ -5,7 +5,7 @@ var levels=7;
 var inLine=2;
 var spacing=50;
 function Start () {
-	
+    
 }
 
 function Update () {
