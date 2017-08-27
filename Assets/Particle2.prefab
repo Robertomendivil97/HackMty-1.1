@@ -53,7 +53,7 @@ Transform:
   m_GameObject: {fileID: 1245804012614420}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0}
+  m_LocalScale: {x: 0.15, y: 0.15, z: -0.15}
   m_Children:
   - {fileID: 4907243254778100}
   m_Father: {fileID: 0}
@@ -184,7 +184,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1245804012614420}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2255edfc84dc98e4db0e1a018eff684c, type: 3}
   m_Name: 
@@ -193,6 +193,13 @@ MonoBehaviour:
   Speed: {x: 0, y: 0}
   Acc: {x: 0, y: 0}
   particles: []
+  neonColors:
+  - {r: 1, g: 0.667, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0.667, a: 1}
+  - {r: 0.667, g: 1, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.667, a: 1}
+  - {r: 0, g: 0.667, b: 1, a: 1}
+  - {r: 0.667, g: 0, b: 1, a: 1}
 --- !u!212 &212738306645310800
 SpriteRenderer:
   m_ObjectHideFlags: 1
